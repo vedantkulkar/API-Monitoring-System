@@ -1,0 +1,62 @@
+body{
+	font-family: Arial;
+	margin: 30px;
+}
+
+h1{
+	color: darkblue;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: navy;
+	color: white;
+}
+
+th, td{
+	padding: 10px;
+	text-align: center;
+}
+
+.stats {
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.card {
+	padding: 20px;
+	min-width: 180px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0,2);
+}
+
+.total {
+	background-color: blue;
+}
+
+.up {
+	background-color: green;
+}
+
+.down {
+	background-color: red;
+}
+
+.card h2 {
+	margin-top: 10px;
+}
